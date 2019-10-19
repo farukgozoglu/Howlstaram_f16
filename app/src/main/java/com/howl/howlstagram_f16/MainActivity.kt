@@ -63,6 +63,7 @@ class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
         toolbar_username.visibility = View.GONE
         toolbar_btn_back.visibility = View.GONE
         toolbar_title_image.visibility = View.VISIBLE
+
     }
     fun registerPushToken(){
         FirebaseInstanceId.getInstance().instanceId.addOnCompleteListener {
